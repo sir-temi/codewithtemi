@@ -43,34 +43,20 @@ jobs:
         run: |
           python3 manage.py test
 
+  deploy:
+    name: Deploy in EC2
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Deploy in EC2
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.10
         with:
-          env:
-            key: ${{ secrets.AWS_PRIVATE_KEY  }}
-            host: ${{ secrets.HOST_NAME  }}
-            username: ${{ secrets.USER_NAME  }}
-
-            script: |
-              cd codewithtemi
-              ./deploy_script.sh
-
-  # deploy:
-  #   name: Deploy in EC2
-  #   runs-on: ubuntu-latest
-
-  #   steps:
-  #     - name: Deploy in EC2
-  #       uses: appleboy/ssh-action@master
-  #       with:
-  #         env:
-  #           key: ${{ secrets.AWS_PRIVATE_KEY  }}
-  #           host: ${{ secrets.HOST_NAME  }}
-  #           username: ${{ secrets.USER_NAME  }}
-
-  #           script: |
-  #             cd codewithtemi
-  #             ./deploy_script.sh
+          key: ${{ secrets.AWS_PRIVATE_KEY  }}
+          host: ${{ secrets.HOST_NAME  }}
+          username: ${{ secrets.USER_NAME  }}
+          script: |
+            cd codewithtemi
+            ./deploy_script.sh
   # deploy:
   #   name: Deploy to AWS
   #   runs-on: ubuntu-latest
