@@ -57,7 +57,7 @@ jobs:
           
             #Now we have got the access of EC2 and we will start the deploy .
             cd codewithtemi
-            pull codewithtemi main
+            git pull codewithtemi main
 
   # deploy:
   #   name: Deploy to AWS
