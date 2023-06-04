@@ -57,4 +57,4 @@ jobs:
           username: ${{ secrets.USER_NAME  }}
           script: |
             cd codewithtemi
-            ./deploy_script
+            ./deploy_script.sh
