@@ -4,10 +4,10 @@ import Footer from '../components/Footer'
 import { Container } from "react-bootstrap";
 
 
-function BodyScreen() {
+function BodyScreen({ maintenanceMode }: { maintenanceMode: boolean }) {
     return (
         <div>
-            <Header />
+            <Header maintenanceMode={maintenanceMode} />
             <main>
                 <Container>
                     <Outlet />
