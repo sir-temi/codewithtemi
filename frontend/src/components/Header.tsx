@@ -6,7 +6,7 @@ function Header() {
     return (
         <Navbar expand="lg" className="" bg="primary" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand as={Link} to="/about">
+                <Navbar.Brand as={Link} to="/">
                     CodeWithTemi
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
