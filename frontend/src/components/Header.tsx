@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { NavLink, Link } from "react-router-dom";
 
 
-function Header() {
+function Header({ maintenanceMode }: { maintenanceMode: boolean }) {
     return (
         <Navbar expand="lg" className="" bg="primary" data-bs-theme="dark">
             <Container>
@@ -11,7 +11,7 @@ function Header() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    {!maintenanceMode && <Nav className="ms-auto">
                         <NavLink
                             to="/about"
                             className="nav-link"
@@ -24,7 +24,7 @@ function Header() {
                         >
                             Log In
                         </NavLink>
-                    </Nav>
+                    </Nav>}
                 </Navbar.Collapse>
             </Container>
         </Navbar>
