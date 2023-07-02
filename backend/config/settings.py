@@ -45,7 +45,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "codewithtemi.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
@@ -136,6 +136,7 @@ else:
     SECURE_HSTS_PRELOAD = True
 
     SECURE_SSL_REDIRECT = True
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SECURE = True
