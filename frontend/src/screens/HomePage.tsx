@@ -24,7 +24,7 @@ function HomePage() {
                     <img
                         src={HomePagePic}
                         alt="development"
-                        style={{ objectFit: "scale-down" }}
+                        style={{ objectFit: "contain" }}
                     />
                 </Col>
             </Row>
