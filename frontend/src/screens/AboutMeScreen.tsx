@@ -6,8 +6,8 @@ function AboutMeScreen() {
     return (
         <div className="mt-3">
             <Row>
-                <Col lg={4}>
-                    <div className="d-flex align-items-center">
+                <Col md={4} className="mb-3 text-center text-md-start">
+                    <div className="d-flex align-items-center justify-content-center justify-content-md-start">
                         <div>
                             <Avatar
                                 alt="Temi"
@@ -41,7 +41,7 @@ function AboutMeScreen() {
                         </a>
                     </div>
                 </Col>
-                <Col>
+                <Col md={8}>
                     <h1>Hello, friend!</h1>
                     <p>
                         Welcome, let me give you a small gist about myself. 👋
