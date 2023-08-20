@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0 0 35 35.000004"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.84096521"
+     inkscape:cx="403.70279"
+     inkscape:cy="378.13693"
+     inkscape:window-width="1392"
+     inkscape:window-height="729"
+     inkscape:window-x="52"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g6" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.5038983,-94.790715)">
+    <g
+       id="g6"
+       inkscape:export-filename="g6.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g7"
+         inkscape:export-filename="./g7.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <rect
+           style="fill:#385a7f;fill-opacity:1;stroke-width:0.264583"
+           id="rect4"
+           width="35"
+           height="35"
+           x="5.5038981"
+           y="94.790718"
+           ry="3.1461864" />
+        <g
+           id="g5-6"
+           transform="matrix(0.71016994,0,0,0.71016994,-13.123598,1.0777008)"
+           style="fill:#ffffff;fill-opacity:1">
+          <path
+             style="font-size:22.5778px;font-family:'Roboto Mono Medium for Powerline';-inkscape-font-specification:'Roboto Mono Medium for Powerline';fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
+             d="m 34.620525,158.36387 -0.97634,0.3 0.97634,0.28695 8.53172,2.66083 v 3.13038 l -13.00786,-4.86514 v -2.47822 l 13.00786,-4.8521 v 3.11735 z"
+             id="text1-3-4-4-3-7"
+             aria-label="&lt;" />
+          <path
+             d="m 49.010033,160.58586 0.07717,0.76068 0.121268,-0.76068 1.708769,-8.00366 h 1.730817 l 1.730818,8.09185 0.121268,0.79375 0.09922,-0.87092 1.157554,-8.01468 h 2.381252 l -2.326131,11.92831 h -2.215887 l -1.807988,-7.9816 -0.02205,-0.14332 -0.02205,0.1323 -1.774915,7.99262 H 47.764285 L 45.438154,152.5822 h 2.370228 z m 22.588825,-9.94394 h -4.92787 v 13.86859 H 64.036177 V 150.64192 H 59.14138 v -2.18281 h 12.457478 z"
+             id="text2-5-5-8-5"
+             style="font-weight:500;font-size:22.5778px;font-family:'Roboto Mono Medium for Powerline';-inkscape-font-specification:'Roboto Mono Medium for Powerline Medium';fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+             aria-label="wT" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

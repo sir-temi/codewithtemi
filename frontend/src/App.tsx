@@ -11,7 +11,7 @@ import LoginScreen from "./screens/LoginScreen";
 import MaintenanceScreen from "./screens/MaintenanceScreen";
 
 
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE;
 
 function App() {
   const router = createBrowserRouter(
