@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { NavLink, Link } from "react-router-dom";
+import Logo from '../assets/logo.png'
 
 
 function Header({ maintenanceMode }: { maintenanceMode: boolean }) {
@@ -7,7 +8,7 @@ function Header({ maintenanceMode }: { maintenanceMode: boolean }) {
         <Navbar expand="lg" className="" bg="primary" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand as={Link} to="/">
-                    CodeWithTemi
+                    <img src={Logo} alt="logo" height="30" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -17,12 +18,6 @@ function Header({ maintenanceMode }: { maintenanceMode: boolean }) {
                             className="nav-link"
                         >
                             About Me
-                        </NavLink>
-                        <NavLink
-                            to="/login"
-                            className="nav-link"
-                        >
-                            Log In
                         </NavLink>
                     </Nav>}
                 </Navbar.Collapse>

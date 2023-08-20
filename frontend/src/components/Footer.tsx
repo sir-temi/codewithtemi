@@ -1,7 +1,10 @@
 function Footer() {
+    const date = new Date();
     return (
-        <div className='text-center p-3'>Copyright &copy; 2023 CodeWithTemi </div>
-    )
+        <div className="text-center p-3">
+            Copyright &copy; {date.getFullYear()} CodewithTemi{" "}
+        </div>
+    );
 }
 
-export default Footer
+export default Footer;
