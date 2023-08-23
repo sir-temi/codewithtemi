@@ -7,7 +7,7 @@ function Header({ maintenanceMode }: { maintenanceMode: boolean }) {
         <Navbar expand="lg" className="" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand as={Link} to="/">
-                    <img src={Logo} alt="logo" height="60" />
+                    <img src={Logo} alt="logo" height="60px" width="60px" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
