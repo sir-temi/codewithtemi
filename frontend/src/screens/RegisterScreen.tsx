@@ -27,7 +27,7 @@ function RegistrationPage() {
         setLoading(true);
         try {
             const response = await axios.post(
-                "https://temilimited.com/api/register",
+                "https://temilimited.com/api/register/",
                 formData
             );
             if (response.status === 200) {
