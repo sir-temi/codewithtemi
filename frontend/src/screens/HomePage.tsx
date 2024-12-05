@@ -25,17 +25,21 @@ function HomePage() {
                         costs—just community-driven learning for aspiring
                         developers and data scientists.
                     </Typography>
-                    <Button
-                        variant="contained"
-                        color="secondary"
-                        className="mt-4 text-sm-center"
-                        size="large"
-                        href="#mentorship"
-                        component={Link} // Specify the component as a Link
-                        to="/register"
-                    >
-                        Join Now for Free
-                    </Button>
+                    <div className="d-flex justify-content-center justify-content-sm-start w-100">
+                        <div>
+                            <Button
+                                variant="contained"
+                                color="secondary"
+                                className="my-4 text-sm-center"
+                                size="large"
+                                href="#mentorship"
+                                component={Link} // Specify the component as a Link
+                                to="/register"
+                            >
+                                Join Now for Free
+                            </Button>
+                        </div>
+                    </div>
                 </Col>
                 <Col sm={12} md={6} lg={6}>
                     <img
