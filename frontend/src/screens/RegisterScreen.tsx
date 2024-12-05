@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { Button } from "@mui/material";
@@ -16,7 +17,7 @@ function RegistrationPage() {
         interest: "",
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: { target: { name: any; value: any } }) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
