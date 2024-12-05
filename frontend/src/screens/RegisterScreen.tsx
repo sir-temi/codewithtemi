@@ -7,9 +7,11 @@ import axios from "axios";
 import RegistrationImage from "../assets/registration_image.jpeg";
 import Loader from "../components/Loader";
 import { useSnackbar } from "notistack";
+import { useNavigate } from "react-router-dom";
 
 function RegistrationPage() {
     const { enqueueSnackbar } = useSnackbar();
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
     const [formData, setFormData] = useState({
         name: "",
@@ -32,9 +34,18 @@ function RegistrationPage() {
             );
             if (response.status === 200) {
                 enqueueSnackbar(
-                    "We have received your submission, please expect us to contact you for onboardng in a few days.",
+                    <div>
+                        <div>
+                            Thank you for your submission! We will reach out to
+                            you within a few{" "}
+                        </div>
+                        <div>
+                            days to guide you through the onboarding process.
+                        </div>
+                    </div>,
                     { variant: "success" }
                 );
+                navigate("/");
             }
         } catch (error) {
             enqueueSnackbar("Something went wrong. Please try again.", {
