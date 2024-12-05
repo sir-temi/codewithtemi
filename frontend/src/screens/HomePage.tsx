@@ -28,7 +28,7 @@ function HomePage() {
                     <Button
                         variant="contained"
                         color="secondary"
-                        className="mt-4"
+                        className="mt-4 text-sm-center"
                         size="large"
                         href="#mentorship"
                         component={Link} // Specify the component as a Link
@@ -82,7 +82,7 @@ function HomePage() {
                 <Button
                     variant="contained"
                     color="secondary"
-                    className="mt-4"
+                    className="my-4"
                     size="large"
                     component={Link} // Specify the component as a Link
                     to="/mentorship"
@@ -100,6 +100,7 @@ function HomePage() {
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
@@ -125,6 +126,7 @@ function HomePage() {
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
@@ -149,6 +151,7 @@ function HomePage() {
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
@@ -171,10 +174,11 @@ function HomePage() {
                         </Card>
                     </Col>
                 </Row>
-                <Row className="mt-4">
+                <Row className="mb-4">
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
@@ -199,6 +203,7 @@ function HomePage() {
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
@@ -223,6 +228,7 @@ function HomePage() {
                     <Col sm={12} md={4}>
                         <Card
                             variant="outlined"
+                            className="mb-4"
                             sx={{
                                 backgroundColor: "transparent",
                                 borderColor: "#ddd", // Adjust the border color
