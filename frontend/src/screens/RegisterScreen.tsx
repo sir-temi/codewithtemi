@@ -15,7 +15,6 @@ function RegistrationPage() {
         email: "",
         interest: "",
     });
-    const [message, setMessage] = useState("");
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -26,7 +25,10 @@ function RegistrationPage() {
         e.preventDefault();
         setLoading(true);
         try {
-            const response = await axios.post("/api/register", formData);
+            const response = await axios.post(
+                "https://temilimited.com/api/register",
+                formData
+            );
             if (response.status === 200) {
                 enqueueSnackbar(
                     "We have received your submission, please expect us to contact you for onboardng in a few days.",
@@ -107,17 +109,6 @@ function RegistrationPage() {
                             Register Now
                         </Button>
                     </Form>
-                    {message && (
-                        <Typography
-                            variant="body2"
-                            color={
-                                message.includes("successful") ? "green" : "red"
-                            }
-                            className="mt-3"
-                        >
-                            {message}
-                        </Typography>
-                    )}
                 </Col>
 
                 {/* Image Section */}
