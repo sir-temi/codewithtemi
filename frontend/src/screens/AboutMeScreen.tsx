@@ -6,126 +6,133 @@ function AboutMeScreen() {
     return (
         <div className="mt-3">
             <Row>
-                <Col md={4} className="mb-3 text-center text-md-start">
-                    <div className="d-flex align-items-center justify-content-center justify-content-md-start">
-                        <div>
-                            <Avatar
-                                alt="Temi"
-                                src={Temi}
-                                sx={{ width: 56, height: 56 }}
-                            />
-                        </div>
-                        <div>
-                            <h3 className="display-4">Temi</h3>
-                        </div>
+                {/* Personal Details */}
+                <Col md={3} className="mb-3 text-center text-md-start">
+                    <div className="d-flex align-items-center justify-content-center">
+                        <Avatar
+                            alt="Temi"
+                            src={Temi}
+                            sx={{ width: 150, height: 150, marginRight: 2 }}
+                        />
                     </div>
-                    <h5>Senior Software Developer at RMT</h5>
-                    <div>
-                        <a
+                    <h5 className="text-center mt-3">
+                        Founder | Senior Software Developer | Mentor | Educator
+                    </h5>
+                    <div className="mt-3 text-center">
+                        {/* <a
                             href="https://www.instagram.com/code_with_temi/"
-                            target="blank"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fa-brands fa-instagram fa-xl me-3 text-white"></i>
-                        </a>
+                        </a> */}
                         <a
-                            href="https://twitter.com/code_with_temi?ref_src=twsrc%5Etfw"
-                            className="twitter-follow-button"
-                            data-show-count="false"
+                            href="https://twitter.com/code_with_temi"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <i className="fa-brands fa-x-twitter fa-xl me-3 text-white"></i>
                         </a>
-
-                        <a href="mailto: temi@codewithtemi.site">
+                        <a href="mailto:temi@codewithtemi.site">
                             <i className="fa-solid fa-envelope fa-xl me-3 text-white"></i>
                         </a>
                     </div>
                 </Col>
-                <Col md={8}>
+
+                {/* About Section */}
+                <Col md={9}>
                     <h1>Hello, friend!</h1>
                     <p>
-                        Welcome, let me give you a small gist about myself. 👋
-                        I'm a seasoned software engineer with a journey that
-                        began in the vibrant world of web and graphic design. In
-                        my early days, I was well-versed in tools like{" "}
+                        Welcome! 👋 I'm Temitope "Temi" Kayode, a seasoned
+                        software engineer with over 7 years of experience in the
+                        tech industry. My journey started in the creative world
+                        of web and graphic design, mastering tools like{" "}
                         <span className="highlight">CorelDraw</span>,{" "}
-                        <span className="highlight">Adobe Illustrator</span>,{" "}
-                        <span className="highlight">Photoshop</span>, and{" "}
-                        <span className="highlight">WordPress</span>. My
-                        creativity flowed through pixels and layouts, and I
-                        found joy in crafting digital art.
+                        <span className="highlight">Adobe Illustrator</span>,
+                        and <span className="highlight">Photoshop</span>. From
+                        designing stunning graphics to crafting functional
+                        websites with{" "}
+                        <span className="highlight">WordPress</span>, I
+                        discovered my passion for technology early on.
                     </p>
-
                     <p>
-                        But as they say, change is a powerful force. Driven by
-                        my innate curiosity and a desire to expand my horizons,
-                        I embarked on a transformational journey into the realm
-                        of software development. Over the span of 7 years, I've
-                        traversed a dynamic path, evolving into a well-rounded
-                        developer.
-                    </p>
-
-                    <p>
-                        My expertise spans a wide spectrum, including web and
-                        mobile applications, cloud computing, DevOps, and
-                        beyond. My coding repertoire encompasses languages like{" "}
+                        Fueled by curiosity and a drive to solve complex
+                        problems, I transitioned into software development. Over
+                        the years, I’ve honed my skills in web and mobile
+                        development, cloud computing, and DevOps, becoming
+                        proficient in languages like{" "}
                         <span className="highlight">Python</span>,{" "}
-                        <span className="highlight">Javascript</span>,{" "}
+                        <span className="highlight">JavaScript</span>,{" "}
                         <span className="highlight">Dart</span>,{" "}
                         <span className="highlight">C#</span>,{" "}
                         <span className="highlight">Java</span>, and{" "}
                         <span className="highlight">Swift</span>. My tech stack
-                        features an ensemble of powerful tools:{" "}
-                        <span className="highlight">Django</span> and{" "}
-                        <span className="highlight">React</span> for robust web
-                        applications and{" "}
-                        <span className="highlight">Flutter</span> for
-                        captivating mobile applications.
+                        includes <span className="highlight">Django</span>,{" "}
+                        <span className="highlight">React</span>, and{" "}
+                        <span className="highlight">Flutter</span>.
                     </p>
 
+                    {/* Mentorship Section */}
+                    <h2 className="mt-4">Mentorship Journey</h2>
                     <p>
-                        With a strong foundation in cloud technologies including{" "}
-                        <span className="highlight">AWS</span> and{" "}
-                        <span className="highlight">DigitalOcean</span>, I've
-                        honed the art of creating scalable and efficient
-                        solutions. Databases like{" "}
-                        <span className="highlight">MySQL</span>,{" "}
-                        <span className="highlight">PostgreSQL</span>, and{" "}
-                        <span className="highlight">MongoDB</span> are my
-                        playgrounds, while version control and collaboration
-                        thrive under the guidance of{" "}
-                        <span className="highlight">Git</span> and{" "}
-                        <span className="highlight">CI/CD</span> practices.
+                        Mentorship has always been a cornerstone of my career.
+                        Through platforms like{" "}
+                        <span className="highlight">CodeWithTemi</span>, I’ve
+                        provided free training to over 1,000 aspiring developers
+                        and data scientists, helping them land roles at top
+                        companies in Nigeria, the UK, the USA, and Canada.
+                    </p>
+                    <p>
+                        I’ve had the privilege of mentoring at the{" "}
+                        <span className="highlight">UI Consultancy</span>, where
+                        I guided students and young professionals on software
+                        engineering and project management. At the{" "}
+                        <span className="highlight">Ilorin Innovation Hub</span>
+                        , I helped budding developers tackle real-world
+                        problems, instilling confidence and technical expertise.
+                        My mentorship extends beyond technical skills, as I
+                        empower individuals to think critically and approach
+                        challenges with creativity.
                     </p>
 
+                    {/* Professional Experience */}
+                    <h2 className="mt-4">Professional Contributions</h2>
                     <p>
-                        Currently, I'm a Senior Software Developer at a
-                        pioneering Edutech company nestled in the vibrant city
-                        of London. Outside the world of coding, I'm an avid{" "}
-                        <span className="highlight">tutor</span> for aspiring
-                        software developers. Spending cherished moments with my{" "}
-                        <span className="highlight">family</span>, indulging in
-                        movies, music, and games, paints the canvas of my
-                        leisure hours.
+                        Currently, I am a founder of QuickPurse, a bill payment
+                        app making waves in the Nigerian market. I also wwork as
+                        a Senior Software Developer at an EdTech company in
+                        London, contributing to platforms used by hundreds of
+                        thousands. My responsibilities span software
+                        development, architecture, and cloud infrastructure,
+                        ensuring scalable and efficient solutions.
+                    </p>
+                    <p>
+                        I’ve also contributed to several open-source projects,
+                        demonstrating my commitment to fostering a collaborative
+                        tech ecosystem.
                     </p>
 
+                    {/* Education Section */}
+                    <h2 className="mt-4">Academic Excellence</h2>
                     <p>
-                        My academic journey reached a zenith with a{" "}
+                        My academic journey includes a{" "}
                         <span className="highlight">
-                            Masters in Computer Science
+                            Master’s degree in Computer Science
                         </span>{" "}
                         from Coventry University, where I graduated with
-                        distinction. This fusion of education and practical
-                        prowess equips me to navigate the ever-evolving tech
-                        landscape with insight and finesse.
+                        distinction. This formal education, combined with
+                        hands-on experience, has equipped me to tackle the
+                        ever-evolving tech landscape with insight and finesse.
                     </p>
 
-                    <p>
-                        If you're as passionate about technology and its
-                        possibilities as I am, or if you're just looking for a
-                        friendly chat about coding, or you need a friendly
-                        knowledgeable Tutor/Mentor, feel free to connect. Let's
-                        explore the boundless realms of innovation together!
+                    {/* Closing Section */}
+                    <h2 className="mt-4">Let's Connect!</h2>
+                    <p className="mb-5">
+                        Beyond coding, I’m passionate about teaching, family,
+                        and enjoying life through music, movies, and games. If
+                        you’re looking for a mentor, tutor, or just someone to
+                        discuss tech ideas with, feel free to reach out. Let’s
+                        innovate and grow together!
                     </p>
                 </Col>
             </Row>

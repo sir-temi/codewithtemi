@@ -11,3 +11,31 @@ main{
 .interests {
   font-style: italic;
 }
+
+.hero-section {
+  /* background-color: #f8f9fa; */
+}
+
+.homepage-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.features-section .card {
+  text-align: center;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card {
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #343a40;
+}

@@ -1,9 +1,16 @@
+import { Typography } from "@mui/material";
+import { Container } from "react-bootstrap";
+
 function Footer() {
-    const date = new Date();
     return (
-        <div className="text-center p-3">
-            Copyright &copy; {date.getFullYear()} CodewithTemi{" "}
-        </div>
+        <footer className="footer py-4 bg-dark text-white text-center">
+            <Container>
+                <Typography variant="body2">
+                    © {new Date().getFullYear()} Code with Temi. All Rights
+                    Reserved.
+                </Typography>
+            </Container>
+        </footer>
     );
 }
 
