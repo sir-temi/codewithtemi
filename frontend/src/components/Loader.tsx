@@ -5,7 +5,7 @@ export default function Loader() {
             style={{ height: "65vh" }}
         >
             <div
-                className="spinner-grow highlight"
+                className="spinner-border highlight"
                 style={{ width: "3em", height: "3em" }}
                 role="status"
             >
